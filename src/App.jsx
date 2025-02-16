@@ -5,6 +5,8 @@ import Product from './components/products/product'
 import Topseller from './components/topseller/topseller'
 import Sale from './components/sale/sale'
 import AOS from "aos"
+import Newsletter from './components/newsletter/newsletter'
+import Footer from './components/footer'
 import "aos/dist/aos.css"
 
 const App = () => {
@@ -27,6 +29,9 @@ React.useEffect(() => {
     <Product />
     <Topseller />
     <Sale />
+    <Newsletter />
+    <Product />
+    <Footer />
     </div>
   )
 }

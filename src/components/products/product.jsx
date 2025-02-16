@@ -58,7 +58,7 @@ const productdata = [
 
 const product = () => {
   return (
-    <div className=' dark:bg-gray-800 dark:text-white'>
+    <div className=' dark:bg-gray-800 dark:text-white py-10'>
         <div className='container'>
 {/* header  */}
             <div className='text-center mb-10 max-w-[600px] mx-auto'>
@@ -93,6 +93,7 @@ const product = () => {
             ))
         }
     </div>
+   
 </div>
 
 {/* footer  */}

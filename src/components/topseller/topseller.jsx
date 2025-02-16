@@ -57,7 +57,7 @@ const topseller = () => {
         {
             productsData.map((data) => (
                 <div className='rounded-2xl bg-white dark:bg-gray-800 hover:bg-black mb-10 dark:hover:bg-primary hover:text-white 
-                relative shadow-xl duration-high group w-[300px]'>
+                relative  duration-high group w-[300px]'>
                     {/* image section  */}
                     <div key={data.id} pb-10>
                         <img src={data.img} className='max-w-[140px] block mx-auto transform -translate-y-20 group-hover:scale-105 
